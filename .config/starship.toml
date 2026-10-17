@@ -1,0 +1,37 @@
+# Main display structure layout
+right_format = '$time'
+
+[time]
+disabled = false
+format = 'at [$time](_yellow) '
+time_format = '%d %b %R'
+
+# FORCE BATTERY MODULE TO STAY VISIBLE ALL THE TIME
+[battery]
+disabled = false
+format = '[$symbol$percentage]($style) '
+
+# Set rules for every possible percentage range so it never hides
+[[battery.display]]
+threshold = 100
+style = 'bold green'
+charging_symbol = '⚡️ '
+discharging_symbol = '🔋 '
+
+[[battery.display]]
+threshold = 30
+style = 'bold yellow'
+charging_symbol = '⚡️ '
+discharging_symbol = '🪫 '
+
+[[battery.display]]
+threshold = 15
+style = 'bold red'
+charging_symbol = '⚡️ '
+discharging_symbol = '🚨 '
+
+# FORCE SYSTEM PERFORMANCE MODULES TO VISIBLE ALL THE TIME
+[memory_usage]
+disabled = false
+threshold = 0       # Set to 0 so RAM usage is always visible, not just over 75%
+format = 'via [💾 $ram_pct]($style) '

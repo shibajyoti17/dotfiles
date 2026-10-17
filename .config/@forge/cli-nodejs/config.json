@@ -1,0 +1,19 @@
+{
+	"anonId": {},
+	"machineId": {
+		"value": "bcc521833ed04059d45132a34a2aad5d76024d4f52afd62377dae2092bf70202"
+	},
+	"analytics-preferences": {
+		"value": true
+	},
+	"latest": {
+		"value": "12.10.0",
+		"expiry": 1764567261744
+	},
+	"default-environment": {
+		"value": {
+			"ari:cloud:ecosystem::app/c87fffef-fd47-488e-b369-f420620a1158": "default",
+			"ari:cloud:ecosystem::app/3dd974ac-7e3f-4d7d-8a5b-58e6fd20260e": "default"
+		}
+	}
+}

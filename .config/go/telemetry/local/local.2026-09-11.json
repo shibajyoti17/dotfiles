@@ -1,0 +1,101 @@
+{
+ "Week": "2026-09-11",
+ "LastWeek": "",
+ "X": 0.26032955430069604,
+ "Programs": [
+  {
+   "Program": "cmd/asm",
+   "Version": "go1.25.6",
+   "GoVersion": "go1.25.6",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {},
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/cgo",
+   "Version": "go1.25.6",
+   "GoVersion": "go1.25.6",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {},
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/compile",
+   "Version": "go1.25.6",
+   "GoVersion": "go1.25.6",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "compile/invocations": 1
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.25.6",
+   "GoVersion": "go1.25.6",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/buildcache/hit": 188,
+    "go/buildcache/miss": 14,
+    "go/env/flag:json": 1,
+    "go/goroot:usr-local-go": 34,
+    "go/invocations": 34,
+    "go/list/flag:compiled": 1,
+    "go/list/flag:deps": 1,
+    "go/list/flag:e": 3,
+    "go/list/flag:export": 1,
+    "go/list/flag:f": 3,
+    "go/list/flag:find": 1,
+    "go/list/flag:json": 1,
+    "go/list/flag:pgo": 1,
+    "go/list/flag:test": 1,
+    "go/mod-tidy/flag:modfile": 2,
+    "go/mode:gopath": 2,
+    "go/mode:module": 32,
+    "go/platform/host/linux/major-version:6": 34,
+    "go/platform/host/linux/version:6-18": 34,
+    "go/platform/target/goamd64:v1": 34,
+    "go/platform/target/goarch:amd64": 34,
+    "go/platform/target/goos:linux": 34,
+    "go/subcommand:env": 3,
+    "go/subcommand:list": 4,
+    "go/subcommand:mod-tidy": 2,
+    "go/subcommand:version": 25
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "golang.org/x/tools/gopls",
+   "Version": "v0.21.0",
+   "GoVersion": "go1.25.6",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "gopls/client:neovim": 1,
+    "gopls/gotoolchain:auto": 1,
+    "gopls/goversion:1.25": 1,
+    "gopls/setting/analyses/unusedparams:true": 3,
+    "gopls/setting/gofumpt:true": 3,
+    "gopls/setting/staticcheck:true": 3,
+    "gopls/telemetryprompt/attempts:0": 1
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/link",
+   "Version": "go1.25.6",
+   "GoVersion": "go1.25.6",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "link/invocations": 1
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}
